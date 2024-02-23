@@ -1,30 +1,23 @@
-﻿P1 -> ¿Qué crees que significa la opción -n den el comando revert?
+﻿P1 ->  ¿Qué rama se ha subido exactamente?
 
--	En el comando (git revert -help) nos comenta que -n es una de las 2 maneras 
-	de conseguir que no haga commmit automáticamente. La otra sería --no-commit
+-	se ha subido la rama master
 
-P2 -> ¿Qué cambios se ha producido al ejecutar el comando reset?
+P2 ->  ¿Qué pasa al utilizar la opción Comparar con la versión no modificada?
 
--	Que el HEAD se ha movido ahora al anterior commit, y ha deshecho el último
-	commit por lo tanto se ha vuelto a eliminar readme.txt
+-	Te habre github para poder ver la version no modificada
 
-P3 ->¿Qué diferencias observas entre revert y reset? 
+P3 ->¿Y ahora ves algún cambio en el repositorio remoto? ¿Por qué?
 
--	Revert se utiliza para deshacer cambios de una manera que no altera el 
-	historial de commits. Esto significa que, en lugar de eliminar commits, 
-	revert agrega un nuevo commit que invierte los cambios realizados por 
-	commits anteriores.
+-	no, la verdad es que no lo se
 
--	El comando reset se utiliza para restablecer el estado del repositorio a un 
-	commit anterior, eliminando commits posteriores a ese punto. Es una manera de 
-	"borrar" cambios en el historial de tu proyecto.
+P4 -> ¿Qué significa “Confirmar todo” y cuál sería el comando git equivalente?
 
-P4 -> ¿Qué diferencias observas entre merge y rebase?
+-	Es hacer un commit
 
--	Merge preserva el historial exacto de las ramas, incluyendo cómo y cuándo se 
-	integraron las características. Esto puede resultar en un historial más 
-	complejo, pero refleja con precisión el proceso de desarrollo.
+P5 -> ¿Qué significa “Confirmar todo e insertar” y cuál sería el comando git equivalente?
 
--	Rebase ofrece un historial más limpio y lineal, lo que puede simplificar la 
-	comprensión de la secuencia de cambios. Sin embargo, al reescribir el historial, 
-	puede complicar el trabajo colaborativo si no se usa con cuidado.
+- Es hacer un commit y un add si no está añadido
+
+P6 -> ¿Qué significa “Confirmar todo y sincronizar” cuál sería el comando git equivalente?
+
+- sería hacer un commit y un push
